@@ -13,5 +13,4 @@ before_script:
 script:
 - ng lint
 - ng test --watch=false --browsers=ChromeHeadless
-- ng e2e
 - ng build --prod --base-href https://github.com/MichalSlatala/test-automation-workshops
